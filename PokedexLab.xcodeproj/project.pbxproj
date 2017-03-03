@@ -19,6 +19,8 @@
 		3C6CFD431E62889D00D991A0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CFD421E62889D00D991A0 /* CategoryViewController.swift */; };
 		3C6CFD451E6288BB00D991A0 /* PokemonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CFD441E6288BB00D991A0 /* PokemonInfoViewController.swift */; };
 		3C6CFD4F1E63F6FC00D991A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CFD4E1E63F6FC00D991A0 /* Main.storyboard */; };
+		638523231E6915D30048B1FC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638523221E6915D30048B1FC /* CategoryCell.swift */; };
+		638523251E6921E20048B1FC /* PokemonCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638523241E6921E20048B1FC /* PokemonCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		3C6CFD421E62889D00D991A0 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		3C6CFD441E6288BB00D991A0 /* PokemonInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonInfoViewController.swift; sourceTree = "<group>"; };
 		3C6CFD4E1E63F6FC00D991A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		638523221E6915D30048B1FC /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		638523241E6921E20048B1FC /* PokemonCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +154,9 @@
 		3C6CFD471E6288DB00D991A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				638523241E6921E20048B1FC /* PokemonCellView.swift */,
 				3C6CFD381E62852500D991A0 /* Pokemon.swift */,
+				638523221E6915D30048B1FC /* CategoryCell.swift */,
 				3C6CFD3A1E62854300D991A0 /* PokemonGenerator.swift */,
 			);
 			name = Model;
@@ -294,6 +300,8 @@
 				3C6CFD451E6288BB00D991A0 /* PokemonInfoViewController.swift in Sources */,
 				3C6CFD431E62889D00D991A0 /* CategoryViewController.swift in Sources */,
 				3C6CFD3B1E62854300D991A0 /* PokemonGenerator.swift in Sources */,
+				638523231E6915D30048B1FC /* CategoryCell.swift in Sources */,
+				638523251E6921E20048B1FC /* PokemonCellView.swift in Sources */,
 				3C6CFD0B1E62850E00D991A0 /* AppDelegate.swift in Sources */,
 				3C6CFD411E62885100D991A0 /* SearchViewController.swift in Sources */,
 				3C6CFD391E62852500D991A0 /* Pokemon.swift in Sources */,
